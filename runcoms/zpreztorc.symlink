@@ -42,13 +42,13 @@ zstyle ':prezto:load' pmodule \
   'fasd' \
   'git' \
   'gnu-utility' \
+  'syntax-highlighting' \
   'history-substring-search' \
   'node' \
   'screen' \
   'ssh' \
-  'syntax-highlighting' \
   'autosuggestions' \
-  '' \
+  'osx' \
   '' \
   ''
 
