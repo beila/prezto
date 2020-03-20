@@ -39,8 +39,6 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'prompt' \
-  'archive' \
-  'command-not-found' \
   'fasd' \
   'git' \
   'gnu-utility' \
@@ -49,7 +47,7 @@ zstyle ':prezto:load' pmodule \
   'screen' \
   'ssh' \
   'syntax-highlighting' \
-  '' \
+  'autosuggestions' \
   '' \
   '' \
   ''
@@ -80,7 +78,7 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 zstyle ':prezto:module:editor' dot-expansion 'yes'
 
 # Allow the zsh prompt context to be shown.
-#zstyle ':prezto:module:editor' ps-context 'yes'
+zstyle ':prezto:module:editor' ps-context 'yes'
 
 #
 # Git
