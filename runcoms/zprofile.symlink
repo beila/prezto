@@ -1,3 +1,8 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
 #
 # Executes commands at login pre-zshrc.
 #
@@ -63,3 +68,8 @@ if (( $#commands[(i)lesspipe(|.sh)] )); then
 fi
 export JAVA_TOOLS_OPTIONS="-DLog4j2.formatMsgNoLookups=true"
 export JAVA_TOOLS_OPTIONS="-Dlog4j2.formatMsgNoLookups=true"
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
