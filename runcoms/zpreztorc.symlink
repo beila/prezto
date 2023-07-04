@@ -42,14 +42,14 @@ zstyle ':prezto:load' pmodule \
   'fasd' \
   'git' \
   'gnu-utility' \
-  'history-substring-search' \
   'node' \
   'screen' \
   'ssh' \
   'autosuggestions' \
   'osx' \
-  'python' \
   ''
+  #'history-substring-search' \
+  #'python' \
 
 #
 # Autosuggestions
