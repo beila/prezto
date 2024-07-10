@@ -176,7 +176,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias gia='git add'
   alias giA='git add --patch'
   alias giu='git add --update'
-  alias gid='git diff --no-ext-diff --cached'
+  alias gid='git diff --cached'
   alias giD='git diff --no-ext-diff --cached --word-diff'
   alias gii='git update-index --assume-unchanged'
   alias giI='git update-index --no-assume-unchanged'
@@ -186,7 +186,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias giX='git rm -rf --cached'
 
   # Log (l)
-  alias gl='git log --topo-order --pretty=format:"${_git_log_medium_format}"'
+  alias gl='git log --topo-order --pretty=format:"${_git_log_medium_format}" --ext-diff'
   alias gls='git log --topo-order --stat --pretty=format:"${_git_log_medium_format}"'
   alias gld='git log --topo-order --stat --patch --full-diff --pretty=format:"${_git_log_medium_format}"'
   alias glo='git log --topo-order --pretty=format:"${_git_log_oneline_format}"'
@@ -265,7 +265,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   # Working Copy (w)
   alias gws='git status --ignore-submodules=${_git_status_ignore_submodules} --short'
   alias gwS='git status --ignore-submodules=${_git_status_ignore_submodules}'
-  alias gwd='git diff --no-ext-diff'
+  alias gwd='git diff'
   alias gwD='git diff --no-ext-diff --word-diff'
   alias gwr='git reset --soft'
   alias gwR='git reset --hard'
