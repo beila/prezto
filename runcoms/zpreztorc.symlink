@@ -43,13 +43,13 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'gnu-utility' \
   'node' \
-  'screen' \
   'ssh' \
   'autosuggestions' \
   'osx' \
   ''
   #'history-substring-search' \
   #'python' \
+  #'screen' \
 
 #
 # Autosuggestions
@@ -160,10 +160,10 @@ zstyle ':prezto:module:prompt' theme 'powerlevel10k'
 #
 
 # Auto start a session when Zsh is launched in a local terminal.
-zstyle ':prezto:module:screen:auto-start' local 'yes'
+#zstyle ':prezto:module:screen:auto-start' local 'yes'
 
 # Auto start a session when Zsh is launched in a SSH connection.
-zstyle ':prezto:module:screen:auto-start' remote 'yes'
+#zstyle ':prezto:module:screen:auto-start' remote 'yes'
 
 #
 # SSH
