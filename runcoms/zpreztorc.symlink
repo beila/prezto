@@ -39,7 +39,6 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'syntax-highlighting' \
   'prompt' \
-  'fasd' \
   'git' \
   'gnu-utility' \
   'node' \
@@ -50,6 +49,7 @@ zstyle ':prezto:load' pmodule \
   #'history-substring-search' \
   #'python' \
   #'screen' \
+  # 'fasd' \
 
 #
 # Autosuggestions
