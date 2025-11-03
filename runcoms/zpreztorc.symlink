@@ -183,8 +183,8 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
   'brackets' \
   'pattern' \
   'line' \
-  'cursor' \
   'root'
+  #'cursor' \ # it started to hide the cursor
 #
 # Set syntax highlighting styles.
 zstyle ':prezto:module:syntax-highlighting' styles \
